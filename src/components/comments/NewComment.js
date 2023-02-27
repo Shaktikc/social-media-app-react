@@ -21,8 +21,8 @@ export default function NewComment({ post }) {
   if (authLoading) return "Loading...";
 
   return (
-    <Box maxW="600px" mx="auto" py="6">
-      <Flex padding="4">
+    <Box maxW="600px" shadow={"lg"}>
+      <Flex padding="4" bg="gray.100">
         <Avatar user={user} size="sm" />
         <Box flex="1" ml="4">
           <form onSubmit={handleSubmit(handleAddComment)}>

@@ -24,7 +24,7 @@ export default function NewPost({ setDelay }) {
       mx="auto"
       p="10"
       bg="gray.200"
-      shadow={"lg"}
+      shadow={"md"}
       borderRadius="10"
     >
       <form onSubmit={handleSubmit(handleAddPost)}>

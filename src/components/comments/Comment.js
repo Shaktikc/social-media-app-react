@@ -16,7 +16,15 @@ export default function Comment({ comment }) {
   if (userLoading) return "Loading...";
 
   return (
-    <Box px="4" py="2" maxW="600px" mx="auto" textAlign="left">
+    <Box
+      px="4"
+      py="2"
+      maxW="600px"
+      mx="auto"
+      textAlign="left"
+      bg="gray.100"
+      shadow={"md"}
+    >
       <Flex pb="2">
         <Avatar user={user} size="sm" />
         <Box flex="1" ml="4">

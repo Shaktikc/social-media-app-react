@@ -11,7 +11,7 @@ export default function Post({ post }) {
         border="2px solid"
         borderColor="gray.100"
         borderRadius="md"
-        shadow={"lg"}
+        shadow={"md"}
         bg="gray.100"
         // mt="1.5rem"
       >
