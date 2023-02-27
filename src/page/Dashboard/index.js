@@ -20,7 +20,7 @@ export default function Dashboard() {
   if (isLoading) return "Loading posts...";
 
   return (
-    <Box bg="gray.100" p="2rem">
+    <Box p="2rem">
       <NewPost setDelay={setDelay} />
       <PostsLists posts={posts} delay={delay} />
     </Box>
