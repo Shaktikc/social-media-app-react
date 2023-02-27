@@ -24,7 +24,7 @@ export default function Navbar() {
           <Link
             as={RouterLink}
             to={DASHBOARD}
-            fontWeight="bold"
+            // fontWeight="bold"
             color="green"
             fontSize={"xl"}
           >
@@ -33,7 +33,7 @@ export default function Navbar() {
           <Link
             as={RouterLink}
             to={`${PROTECTED}/profile/${user.id}`}
-            fontWeight="bold"
+            // fontWeight="bold"
             color="green"
             fontSize={"xl"}
           >
@@ -42,7 +42,7 @@ export default function Navbar() {
           <Link
             as={RouterLink}
             to={USERS}
-            fontWeight="bold"
+            // fontWeight="bold"
             color="green"
             fontSize={"xl"}
           >
