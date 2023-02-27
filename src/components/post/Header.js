@@ -16,7 +16,7 @@ export default function Header({ post }) {
       borderBottom="2px solid"
       borderColor="teal.100"
       p="3"
-      bg="white"
+      bg="gray.100"
       borderRadius="md"
     >
       <Avatar user={user} size="md" />

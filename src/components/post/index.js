@@ -12,7 +12,7 @@ export default function Post({ post }) {
         borderColor="gray.100"
         borderRadius="md"
         shadow={"lg"}
-        bg="white"
+        bg="gray.100"
         // mt="1.5rem"
       >
         <Header post={post} />
